@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Gulp Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nbootu",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.11",
+    "gulp-postcss": "^9.0.1",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.3.11",
+    "postcss-easings": "^3.0.1",
+    "postcss-preset-env": "^7.0.1",
+    "postcss-sorting": "^7.0.1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "> 0.2%",
+    "not IE 11",
+    "not IE_Mob 11",
+    "not dead"
+  ]
+}

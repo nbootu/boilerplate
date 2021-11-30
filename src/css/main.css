@@ -1,0 +1,19 @@
+:root {
+  --brand: hsl(350, 75%, 64%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+}
+
+h1 {
+  color: var(--brand);
+  text-transform: uppercase;
+  text-align: center;
+}
